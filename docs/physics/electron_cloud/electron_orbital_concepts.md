@@ -16,19 +16,34 @@ That picture is useful historically, but it is physically wrong.
 
 In quantum mechanics, electrons do not move around the nucleus in sharply defined classical orbits. Instead, an electron bound to an atom is described by a **wavefunction**:
 
+
 $$
+
 \psi(\mathbf{r},t)
+
 $$
+
+
 For many atomic orbitals, especially in simple atoms, we often focus on the spatial part:
 
-$$
-\psi(\mathbf{r})
-$$
-The wavefunction itself can be positive, negative, or complex-valued. The measurable quantity is the **probability density**:
 
 $$
-|\psi(\mathbf{r})|^2
+
+\psi(\mathbf{r})
+
 $$
+
+
+The wavefunction itself can be positive, negative, or complex-valued. The measurable quantity is the **probability density**:
+
+
+$$
+
+|\psi(\mathbf{r})|^2
+
+$$
+
+
 This tells us the relative probability of detecting the electron near a particular point in space.
 
 So when we draw an orbital shape, we are usually drawing a surface that encloses a high probability region, often something like 90% or 95% of the total electron probability.
@@ -45,9 +60,14 @@ A classical orbit assumes that the electron has a definite position and a defini
 
 The **Heisenberg uncertainty principle** says:
 
+
 $$
+
 \Delta x\,\Delta p \geq \frac{\hbar}{2}
+
 $$
+
+
 where:
 
 - $\Delta x$ is uncertainty in position,
@@ -60,9 +80,14 @@ Instead, electrons occupy quantum states. These states are solutions to the **Sc
 
 For an electron in an atom, the time-independent Schrödinger equation is:
 
+
 $$
+
 \hat{H}\psi = E\psi
+
 $$
+
+
 where:
 
 - $\hat{H}$ is the Hamiltonian operator, representing total energy,
@@ -81,9 +106,14 @@ The cleanest orbital shapes come from the hydrogen atom, which has one proton an
 
 Because hydrogen has only one electron, there are no electron-electron repulsions to complicate the problem. The electron moves in the Coulomb potential of the proton:
 
+
 $$
+
 V(r) = -\frac{1}{4\pi\epsilon_0}\frac{e^2}{r}
+
 $$
+
+
 where:
 
 - $e$ is the elementary charge,
@@ -94,9 +124,14 @@ The Schrödinger equation for hydrogen can be solved exactly. Its solutions are 
 
 These orbitals are labeled using quantum numbers:
 
+
 $$
+
 n, \ell, m_\ell
+
 $$
+
+
 Each quantum number describes a different part of the orbital.
 
 For multi-electron atoms, orbital shapes are still often described using hydrogen-like labels such as 1s, 2p, 3d, and 4f, but the actual orbitals are modified by electron-electron interactions, shielding, and effective nuclear charge.
@@ -111,9 +146,14 @@ Atomic orbitals are usually described by three spatial quantum numbers.
 
 The principal quantum number is:
 
+
 $$
+
 n = 1, 2, 3, 4, \ldots
+
 $$
+
+
 It mainly determines the orbital's energy level and overall size.
 
 Larger $n$ generally means:
@@ -136,9 +176,14 @@ The shell number in labels such as 1s, 2p, and 3d is the value of $n$.
 
 The angular momentum quantum number is:
 
+
 $$
+
 \ell = 0, 1, 2, \ldots, n-1
+
 $$
+
+
 It determines the general shape of the orbital.
 
 The common orbital letters correspond to values of $\ell$:
@@ -159,25 +204,40 @@ The letters come from older spectroscopy terms:
 
 After f, the letters continue alphabetically, skipping j:
 
+
 $$
+
 g, h, i, k, \ldots
+
 $$
+
+
 In chemistry, s, p, d, and f orbitals are the most important.
 
 ### Magnetic quantum number: $m_\ell$
 
 The magnetic quantum number is:
 
+
 $$
+
 m_\ell = -\ell, -\ell+1, \ldots, 0, \ldots, \ell-1, \ell
+
 $$
+
+
 It determines the orientation of the orbital in space.
 
 For a given $\ell$, the number of possible orientations is:
 
+
 $$
+
 2\ell + 1
+
 $$
+
+
 So:
 
 - s orbitals have 1 orientation,
@@ -193,18 +253,28 @@ These orientations correspond to different orbitals within the same subshell.
 
 A fourth quantum number describes electron spin:
 
+
 $$
+
 m_s = +\frac{1}{2} \quad \text{or} \quad -\frac{1}{2}
+
 $$
+
+
 Spin is not literally an electron spinning like a tiny ball. It is an intrinsic quantum property related to angular momentum and magnetic behavior.
 
 Each orbital can hold at most two electrons because of the **Pauli exclusion principle**.
 
 The Pauli exclusion principle says that no two electrons in the same atom can have the exact same set of four quantum numbers:
 
+
 $$
+
 n, \ell, m_\ell, m_s
+
 $$
+
+
 Since a single orbital has fixed $n$, $\ell$, and $m_\ell$, it can hold only two electrons, one with spin up and one with spin down.
 
 This is why:
@@ -216,9 +286,14 @@ This is why:
 
 The formula is:
 
+
 $$
+
 \text{maximum electrons in a subshell} = 2(2\ell + 1)
+
 $$
+
+
 ---
 
 ## 6. Shells, subshells, and orbitals
@@ -233,14 +308,24 @@ An **orbital** is defined by $n$, $\ell$, and $m_\ell$.
 
 For example, the 2p subshell has:
 
-$$
-n=2, \ell=1
-$$
-Because $\ell=1$, the possible $m_\ell$ values are:
 
 $$
--1, 0, +1
+
+n=2, \ell=1
+
 $$
+
+
+Because $\ell=1$, the possible $m_\ell$ values are:
+
+
+$$
+
+-1, 0, +1
+
+$$
+
+
 So the 2p subshell contains three orbitals.
 
 These are commonly drawn as:
@@ -259,14 +344,24 @@ An orbital label such as **3d** contains two pieces of information.
 
 The number tells $n$:
 
-$$
-3d \Rightarrow n = 3
-$$
-The letter tells $\ell$:
 
 $$
-d \Rightarrow \ell = 2
+
+3d \Rightarrow n = 3
+
 $$
+
+
+The letter tells $\ell$:
+
+
+$$
+
+d \Rightarrow \ell = 2
+
+$$
+
+
 So a 3d orbital belongs to:
 
 - the third shell,
@@ -293,14 +388,24 @@ Instead, it is often a surface of constant probability density or a surface encl
 
 The probability of finding the electron inside a small volume $dV$ is:
 
-$$
-dP = |\psi|^2 dV
-$$
-The total probability of finding the electron somewhere in all space must be 1:
 
 $$
-\int |\psi|^2 dV = 1
+
+dP = |\psi|^2 dV
+
 $$
+
+
+The total probability of finding the electron somewhere in all space must be 1:
+
+
+$$
+
+\int |\psi|^2 dV = 1
+
+$$
+
+
 This is called normalization.
 
 When a textbook shows a p orbital as a dumbbell, it is not saying the electron is only on the surface of the dumbbell. It means the electron is likely to be found in the volume represented by that shape.
@@ -317,17 +422,31 @@ This usually represents the **phase** or sign of the wavefunction, not electric 
 
 For example, a p orbital has two lobes with opposite wavefunction signs:
 
-$$
-\psi > 0 \quad \text{on one side}
-$$
-$$
-\psi < 0 \quad \text{on the other side}
-$$
-But probability density is:
 
 $$
-|\psi|^2
+
+\psi > 0 \quad \text{on one side}
+
 $$
+
+
+$$
+
+\psi < 0 \quad \text{on the other side}
+
+$$
+
+
+But probability density is:
+
+
+$$
+
+|\psi|^2
+
+$$
+
+
 So both positive and negative regions correspond to positive probability.
 
 Phase matters strongly in bonding. When orbitals overlap:
@@ -343,14 +462,24 @@ This is one reason orbital signs are important even though only $|\psi|^2$ direc
 
 A **node** is a region where the wavefunction is zero:
 
-$$
-\psi = 0
-$$
-At a node, the probability density is also zero:
 
 $$
-|\psi|^2 = 0
+
+\psi = 0
+
 $$
+
+
+At a node, the probability density is also zero:
+
+
+$$
+
+|\psi|^2 = 0
+
+$$
+
+
 There are two main kinds of nodes:
 
 1. **Radial nodes**
@@ -358,19 +487,34 @@ There are two main kinds of nodes:
 
 The total number of nodes in a hydrogen-like orbital is:
 
+
 $$
+
 \text{total nodes} = n - 1
+
 $$
+
+
 The number of angular nodes is:
 
-$$
-\text{angular nodes} = \ell
-$$
-The number of radial nodes is:
 
 $$
-\text{radial nodes} = n - \ell - 1
+
+\text{angular nodes} = \ell
+
 $$
+
+
+The number of radial nodes is:
+
+
+$$
+
+\text{radial nodes} = n - \ell - 1
+
+$$
+
+
 These formulas are extremely useful for understanding orbital shapes.
 
 ---
@@ -383,37 +527,62 @@ At a radial node, the electron has zero probability of being found at that radiu
 
 The number of radial nodes is:
 
+
 $$
+
 n - \ell - 1
+
 $$
+
+
 Examples:
 
 ### 1s orbital
 
 For 1s:
 
-$$
-n=1, \ell=0
-$$
-Radial nodes:
 
 $$
-1 - 0 - 1 = 0
+
+n=1, \ell=0
+
 $$
+
+
+Radial nodes:
+
+
+$$
+
+1 - 0 - 1 = 0
+
+$$
+
+
 So 1s has no radial nodes.
 
 ### 2s orbital
 
 For 2s:
 
-$$
-n=2, \ell=0
-$$
-Radial nodes:
 
 $$
-2 - 0 - 1 = 1
+
+n=2, \ell=0
+
 $$
+
+
+Radial nodes:
+
+
+$$
+
+2 - 0 - 1 = 1
+
+$$
+
+
 So 2s has one radial node.
 
 This means the 2s orbital has an inner spherical region and an outer spherical region separated by a spherical node where the probability density is zero.
@@ -422,14 +591,24 @@ This means the 2s orbital has an inner spherical region and an outer spherical r
 
 For 3s:
 
-$$
-n=3, \ell=0
-$$
-Radial nodes:
 
 $$
-3 - 0 - 1 = 2
+
+n=3, \ell=0
+
 $$
+
+
+Radial nodes:
+
+
+$$
+
+3 - 0 - 1 = 2
+
+$$
+
+
 So 3s has two radial nodes.
 
 Higher s orbitals still look spherical overall, but they contain more radial layers.
@@ -442,18 +621,28 @@ An **angular node** is a plane, cone, or more complicated angular surface where 
 
 The number of angular nodes is:
 
+
 $$
+
 \ell
+
 $$
+
+
 Examples:
 
 ### s orbitals
 
 For s orbitals:
 
+
 $$
+
 \ell = 0
+
 $$
+
+
 So s orbitals have zero angular nodes.
 
 That is why they are spherical.
@@ -462,9 +651,14 @@ That is why they are spherical.
 
 For p orbitals:
 
+
 $$
+
 \ell = 1
+
 $$
+
+
 So p orbitals have one angular node.
 
 For a $p_z$ orbital, the angular node is the xy-plane.
@@ -475,9 +669,14 @@ The wavefunction is positive on one side of the nucleus and negative on the othe
 
 For d orbitals:
 
+
 $$
+
 \ell = 2
+
 $$
+
+
 So d orbitals have two angular nodes.
 
 These nodes create the clover-like or donut-and-dumbbell shapes of d orbitals.
@@ -486,9 +685,14 @@ These nodes create the clover-like or donut-and-dumbbell shapes of d orbitals.
 
 For f orbitals:
 
+
 $$
+
 \ell = 3
+
 $$
+
+
 So f orbitals have three angular nodes.
 
 This leads to more complex multi-lobed shapes.
@@ -499,9 +703,14 @@ This leads to more complex multi-lobed shapes.
 
 An **s orbital** has:
 
+
 $$
+
 \ell = 0
+
 $$
+
+
 This means s orbitals are spherically symmetric.
 
 The simplest s orbital is 1s.
@@ -540,9 +749,14 @@ The radial nodes are not physical walls. They are regions where the wavefunction
 
 A **p orbital** has:
 
+
 $$
+
 \ell = 1
+
 $$
+
+
 This means p orbitals have one angular node.
 
 There are three p orbitals in every p subshell:
@@ -571,18 +785,28 @@ So there is no 1p orbital.
 
 The lowest p orbitals are:
 
+
 $$
+
 2p_x, 2p_y, 2p_z
+
 $$
+
+
 ---
 
 ## 15. The d orbitals
 
 A **d orbital** has:
 
+
 $$
+
 \ell = 2
+
 $$
+
+
 This means d orbitals have two angular nodes.
 
 There are five d orbitals in every d subshell:
@@ -604,9 +828,14 @@ The fifth, $d_{z^2}$, looks different. It has two lobes along the z-axis and a d
 
 The first d orbitals occur at $n=3$, because $\ell=2$ requires:
 
+
 $$
+
 n \geq 3
+
 $$
+
+
 So there is no 1d or 2d orbital.
 
 The lowest d orbitals are the 3d orbitals.
@@ -649,9 +878,14 @@ The $d_{z^2}$ orbital has two main lobes along the z-axis and a torus around the
 
 It is sometimes written as:
 
+
 $$
+
 d_{3z^2-r^2}
+
 $$
+
+
 This notation comes from its angular mathematical form.
 
 Although it looks different from the other d orbitals, it still has two angular nodes and belongs to the same d subshell.
@@ -662,21 +896,36 @@ Although it looks different from the other d orbitals, it still has two angular 
 
 An **f orbital** has:
 
+
 $$
+
 \ell = 3
+
 $$
+
+
 This means f orbitals have three angular nodes.
 
 There are seven f orbitals in every f subshell because:
 
-$$
-2\ell + 1 = 2(3) + 1 = 7
-$$
-The first f orbitals occur at $n=4$, because $\ell=3$ requires:
 
 $$
-n \geq 4
+
+2\ell + 1 = 2(3) + 1 = 7
+
 $$
+
+
+The first f orbitals occur at $n=4$, because $\ell=3$ requires:
+
+
+$$
+
+n \geq 4
+
+$$
+
+
 So there are no 1f, 2f, or 3f orbitals.
 
 The shapes of f orbitals are more complex than s, p, and d orbitals. They can have multiple lobes, rings, and alternating phases.
@@ -691,9 +940,14 @@ Because f orbitals are often spatially buried beneath outer s and p orbitals, f-
 
 For hydrogen-like atoms, the orbital wavefunction can be separated into a radial part and an angular part:
 
+
 $$
+
 \psi_{n\ell m}(r,\theta,\phi) = R_{n\ell}(r)Y_\ell^m(\theta,\phi)
+
 $$
+
+
 where:
 
 - $R_{n\ell}(r)$ is the radial wavefunction,
@@ -724,14 +978,24 @@ But when asking how likely the electron is to be found at a certain distance fro
 
 A shell at radius $r$ has surface area:
 
-$$
-4\pi r^2
-$$
-The radial distribution function is roughly:
 
 $$
-P(r) = 4\pi r^2 |R(r)|^2
+
+4\pi r^2
+
 $$
+
+
+The radial distribution function is roughly:
+
+
+$$
+
+P(r) = 4\pi r^2 |R(r)|^2
+
+$$
+
+
 This tells us the probability of finding the electron at distance $r$, regardless of direction.
 
 This distinction is important.
@@ -740,9 +1004,14 @@ For the hydrogen 1s orbital, the probability density is largest at the nucleus. 
 
 The most probable radius for the hydrogen 1s electron is the Bohr radius:
 
+
 $$
+
 a_0 \approx 5.29 \times 10^{-11}\ \text{m}
+
 $$
+
+
 So:
 
 - maximum probability density for 1s is at the nucleus,
@@ -756,19 +1025,34 @@ These are not contradictions. They answer different questions.
 
 The **Bohr radius** is a natural length scale for atomic orbitals:
 
+
 $$
+
 a_0 = \frac{4\pi\epsilon_0\hbar^2}{m_e e^2}
+
 $$
+
+
 Its value is approximately:
 
-$$
-a_0 \approx 0.529\ \text{Å}
-$$
-or:
 
 $$
-a_0 \approx 5.29 \times 10^{-11}\ \text{m}
+
+a_0 \approx 0.529\ \text{Å}
+
 $$
+
+
+or:
+
+
+$$
+
+a_0 \approx 5.29 \times 10^{-11}\ \text{m}
+
+$$
+
+
 For hydrogen, the 1s orbital has its most probable radius at about one Bohr radius.
 
 Higher orbitals extend farther outward. Roughly, the size of hydrogen-like orbitals increases with $n^2$.
@@ -777,9 +1061,14 @@ For hydrogen-like ions, the effective orbital size decreases as nuclear charge i
 
 A rough scaling is:
 
+
 $$
+
 \text{orbital size} \sim \frac{n^2 a_0}{Z}
+
 $$
+
+
 where $Z$ is the nuclear charge for a one-electron ion.
 
 For multi-electron atoms, the scaling is more complicated because inner electrons shield outer electrons from the full nuclear charge.
@@ -794,9 +1083,14 @@ Inner electrons partially block, or **shield**, the outer electron from the full
 
 The electron therefore experiences an **effective nuclear charge**:
 
+
 $$
+
 Z_{\text{eff}}
+
 $$
+
+
 This is less than the actual nuclear charge $Z$, especially for outer electrons.
 
 Greater effective nuclear charge pulls orbitals closer to the nucleus and lowers their energy.
@@ -812,9 +1106,14 @@ Orbitals that penetrate closer to the nucleus feel a larger effective nuclear ch
 
 This is why, within a given shell, orbital energies in multi-electron atoms often follow the trend:
 
+
 $$
+
 s < p < d < f
+
 $$
+
+
 The s orbital penetrates closest to the nucleus, so it is stabilized more strongly.
 
 ---
@@ -825,9 +1124,14 @@ The s orbital penetrates closest to the nucleus, so it is stabilized more strong
 
 For the same principal shell $n$, penetration generally follows:
 
+
 $$
+
 s > p > d > f
+
 $$
+
+
 This means an ns electron can spend more time close to the nucleus than an np, nd, or nf electron in the same shell.
 
 Because s orbitals have no angular nodes, they can have nonzero probability density at the nucleus.
@@ -846,9 +1150,14 @@ Orbitals are **degenerate** when they have the same energy.
 
 In the hydrogen atom, energy depends only on $n$:
 
+
 $$
+
 E_n = -\frac{13.6\ \text{eV}}{n^2}
+
 $$
+
+
 So in hydrogen:
 
 - 2s and 2p have the same energy,
@@ -863,14 +1172,24 @@ As a result, subshell energies depend on both $n$ and $\ell$.
 
 For example, in many atoms:
 
-$$
-2s < 2p
-$$
-and:
 
 $$
-3s < 3p < 3d
+
+2s < 2p
+
 $$
+
+
+and:
+
+
+$$
+
+3s < 3p < 3d
+
+$$
+
+
 Energy ordering in real atoms can become complicated, especially for transition metals and heavier elements.
 
 ---
@@ -945,22 +1264,40 @@ Orbitals with larger $n$ generally extend farther from the nucleus.
 
 For hydrogen-like atoms, energy is determined by:
 
+
 $$
+
 E_n = -\frac{13.6\ \text{eV}}{n^2}
+
 $$
+
+
 Higher $n$ means less negative energy, so the electron is less tightly bound.
 
 For example:
 
+
 $$
+
 E_1 = -13.6\ \text{eV}
+
 $$
+
+
 $$
+
 E_2 = -3.4\ \text{eV}
+
 $$
+
+
 $$
+
 E_3 = -1.51\ \text{eV}
+
 $$
+
+
 As $n$ increases, the electron is farther from the nucleus on average and easier to remove.
 
 In multi-electron atoms, the energy depends on both $n$ and $\ell$, as well as electron-electron repulsions.
@@ -1041,26 +1378,46 @@ It has:
 
 Its wavefunction has the form:
 
-$$
-\psi_{1s}(r) = \frac{1}{\sqrt{\pi a_0^3}}e^{-r/a_0}
-$$
-The probability density is:
 
 $$
-|\psi_{1s}(r)|^2 = \frac{1}{\pi a_0^3}e^{-2r/a_0}
+
+\psi_{1s}(r) = \frac{1}{\sqrt{\pi a_0^3}}e^{-r/a_0}
+
 $$
+
+
+The probability density is:
+
+
+$$
+
+|\psi_{1s}(r)|^2 = \frac{1}{\pi a_0^3}e^{-2r/a_0}
+
+$$
+
+
 This probability density is largest at the nucleus and decreases exponentially outward.
 
 However, the radial probability distribution is:
 
-$$
-P(r) = 4\pi r^2 |\psi_{1s}(r)|^2
-$$
-This is largest at:
 
 $$
-r = a_0
+
+P(r) = 4\pi r^2 |\psi_{1s}(r)|^2
+
 $$
+
+
+This is largest at:
+
+
+$$
+
+r = a_0
+
+$$
+
+
 So for hydrogen 1s:
 
 - highest density point: nucleus,
@@ -1113,19 +1470,33 @@ Each has two lobes with opposite phase.
 
 For $2p_z$, the angular part is related to:
 
+
 $$
+
 \cos\theta
+
 $$
+
+
 This produces a positive lobe on one side of the xy-plane and a negative lobe on the other side.
 
 At the xy-plane:
 
+
 $$
+
 \theta = 90^\circ
+
 $$
+
+
 $$
+
 \cos\theta = 0
+
 $$
+
+
 So the xy-plane is a nodal plane.
 
 The 2p orbitals are important in covalent bonding, especially in elements such as carbon, nitrogen, and oxygen.
@@ -1142,14 +1513,24 @@ A simple example is two hydrogen 1s orbitals combining.
 
 They can combine constructively:
 
-$$
-\psi_{\text{bonding}} = \psi_A + \psi_B
-$$
-or destructively:
 
 $$
-\psi_{\text{antibonding}} = \psi_A - \psi_B
+
+\psi_{\text{bonding}} = \psi_A + \psi_B
+
 $$
+
+
+or destructively:
+
+
+$$
+
+\psi_{\text{antibonding}} = \psi_A - \psi_B
+
+$$
+
+
 The bonding combination increases electron density between the nuclei, lowering energy.
 
 The antibonding combination has a node between the nuclei, raising energy.
@@ -1232,9 +1613,14 @@ These two hybrids point in opposite directions.
 
 The geometry is linear:
 
+
 $$
+
 180^\circ
+
 $$
+
+
 Examples include atoms in molecules such as:
 
 - carbon dioxide, $\text{CO}_2$,
@@ -1278,9 +1664,14 @@ These point toward the corners of a tetrahedron.
 
 The ideal bond angle is:
 
+
 $$
+
 109.5^\circ
+
 $$
+
+
 A classic example is methane, $\text{CH}_4$.
 
 Carbon forms four equivalent sigma bonds with hydrogen.
@@ -1329,9 +1720,14 @@ In molecular orbital theory, electrons are not assigned to a single bond between
 
 A molecular orbital is often written as a linear combination of atomic orbitals:
 
+
 $$
+
 \psi_{MO} = c_1\psi_1 + c_2\psi_2 + c_3\psi_3 + \cdots
+
 $$
+
+
 where the coefficients determine how much each atomic orbital contributes.
 
 Molecular orbital theory explains phenomena that simple Lewis structures struggle with, such as:
@@ -1372,19 +1768,34 @@ Atomic orbitals are connected to spectra because electrons can transition betwee
 
 When an electron absorbs a photon, it can move to a higher-energy state:
 
+
 $$
+
 \Delta E = h\nu
+
 $$
+
+
 When it falls to a lower-energy state, it emits a photon with energy:
 
-$$
-E_{\text{photon}} = h\nu
-$$
-The frequency of light is:
 
 $$
-\nu = \frac{\Delta E}{h}
+
+E_{\text{photon}} = h\nu
+
 $$
+
+
+The frequency of light is:
+
+
+$$
+
+\nu = \frac{\Delta E}{h}
+
+$$
+
+
 This is why atoms emit and absorb specific wavelengths of light.
 
 Orbital energy differences produce spectral lines.
@@ -1401,9 +1812,14 @@ Quantum mechanics imposes **selection rules**.
 
 For many electric dipole transitions in atoms, an important rule is:
 
+
 $$
+
 \Delta \ell = \pm 1
+
 $$
+
+
 This means transitions such as s to p or p to d are allowed, while s to s transitions are forbidden or much weaker under simple electric dipole rules.
 
 Selection rules come from the symmetry of the orbitals and the interaction between light and matter.
@@ -1453,9 +1869,14 @@ This means the simple orbital picture is often refined by including relativistic
 
 The mathematical hydrogen solutions often use complex spherical harmonics:
 
+
 $$
+
 Y_\ell^m(\theta,\phi)
+
 $$
+
+
 Some of these functions are complex-valued.
 
 Textbook orbitals such as $p_x$, $p_y$, and $p_z$ are usually real combinations of complex spherical harmonics.
@@ -1523,29 +1944,54 @@ Empty orbitals can still matter in bonding, excitation, and reactivity.
 
 The number of orbitals in a subshell is:
 
+
 $$
+
 2\ell + 1
+
 $$
+
+
 The maximum number of electrons in a subshell is:
 
+
 $$
+
 2(2\ell + 1)
+
 $$
+
+
 The total number of nodes is:
 
+
 $$
+
 n - 1
+
 $$
+
+
 The number of radial nodes is:
 
-$$
-n - \ell - 1
-$$
-The number of angular nodes is:
 
 $$
-\ell
+
+n - \ell - 1
+
 $$
+
+
+The number of angular nodes is:
+
+
+$$
+
+\ell
+
+$$
+
+
 ---
 
 ## 49. A useful mental model
