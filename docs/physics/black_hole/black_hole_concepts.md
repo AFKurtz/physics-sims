@@ -8,15 +8,14 @@ Black holes are not ordinary objects with solid surfaces. They are regions where
 
 In classical general relativity, an isolated, settled black hole is usually described by only a few external properties:
 
-\[
+$$
 M,\quad J,\quad Q
-\]
-
+$$
 where:
 
-- \(M\) is mass.
-- \(J\) is angular momentum, or spin.
-- \(Q\) is electric charge.
+- $M$ is mass.
+- $J$ is angular momentum, or spin.
+- $Q$ is electric charge.
 
 These quantities determine the main types of idealized black holes:
 
@@ -35,18 +34,16 @@ The simplest black hole is the **Schwarzschild black hole**, which has mass but 
 
 In Newtonian physics, gravity is a force between masses:
 
-\[
+$$
 F = \frac{GMm}{r^2}
-\]
-
+$$
 General relativity replaces this force picture with a geometric picture. Matter and energy curve spacetime, and objects move along the straightest possible paths through that curved spacetime. These paths are called **geodesics**.
 
 Einstein’s field equation is:
 
-\[
+$$
 G_{\mu\nu} = \frac{8\pi G}{c^4}T_{\mu\nu}
-\]
-
+$$
 The left side describes spacetime curvature. The right side describes the distribution of matter, energy, pressure, and momentum.
 
 A black hole forms when enough mass-energy is compressed into a small enough region that spacetime curves into a one-way causal structure. Inside the event horizon, all future-directed paths lead inward.
@@ -57,30 +54,26 @@ A black hole forms when enough mass-energy is compressed into a small enough reg
 
 A useful first estimate comes from escape velocity.
 
-The Newtonian escape velocity from a spherical object of mass \(M\) and radius \(R\) is:
+The Newtonian escape velocity from a spherical object of mass $M$ and radius $R$ is:
 
-\[
+$$
 v_{\text{esc}} = \sqrt{\frac{2GM}{R}}
-\]
-
+$$
 If the escape velocity equals the speed of light:
 
-\[
+$$
 c = \sqrt{\frac{2GM}{R}}
-\]
-
+$$
 then:
 
-\[
+$$
 R = \frac{2GM}{c^2}
-\]
-
+$$
 This radius is called the **Schwarzschild radius**:
 
-\[
+$$
 r_s = \frac{2GM}{c^2}
-\]
-
+$$
 For a non-rotating, uncharged black hole, the event horizon is located at this radius.
 
 Examples:
@@ -88,7 +81,7 @@ Examples:
 - A black hole with the mass of the Sun has a Schwarzschild radius of about 3 kilometers.
 - A black hole with the mass of Earth would have a Schwarzschild radius of about 9 millimeters.
 
-The escape-velocity explanation is useful for intuition, but it is not the full relativistic explanation. In general relativity, the event horizon is not merely the place where escape velocity exceeds \(c\). It is a **causal boundary** where the future light cones tip inward so completely that escape is impossible.
+The escape-velocity explanation is useful for intuition, but it is not the full relativistic explanation. In general relativity, the event horizon is not merely the place where escape velocity exceeds $c$. It is a **causal boundary** where the future light cones tip inward so completely that escape is impossible.
 
 ---
 
@@ -120,7 +113,7 @@ At the horizon, the outward edge of the future light cone is exactly balanced on
 
 Inside the horizon, the entire future light cone points toward smaller radius.
 
-This is why escape is impossible. It is not because light becomes slower. Locally, light still travels at speed \(c\). The problem is that spacetime itself is arranged so that every allowed future path leads inward.
+This is why escape is impossible. It is not because light becomes slower. Locally, light still travels at speed $c$. The problem is that spacetime itself is arranged so that every allowed future path leads inward.
 
 Escaping from inside the event horizon would require moving outside the future light cone, which would mean faster-than-light travel or motion backward in time.
 
@@ -137,31 +130,28 @@ A **Schwarzschild black hole** is the simplest exact black hole solution in gene
 
 The Schwarzschild metric is:
 
-\[
+$$
 ds^2 =
 -\left(1-\frac{2GM}{rc^2}\right)c^2dt^2
 +
 \left(1-\frac{2GM}{rc^2}\right)^{-1}dr^2
 +
 r^2d\Omega^2
-\]
-
+$$
 This equation describes how spacetime intervals behave around a spherical, non-rotating mass.
 
 The apparent mathematical problem at:
 
-\[
+$$
 r = \frac{2GM}{c^2}
-\]
-
+$$
 is a coordinate singularity, not a true physical singularity. With better coordinates, a falling observer can pass through the event horizon smoothly.
 
 The true classical singularity is at:
 
-\[
+$$
 r = 0
-\]
-
+$$
 where curvature quantities become infinite in the Schwarzschild solution.
 
 ---
@@ -172,13 +162,12 @@ Gravity affects time. Clocks deeper in a gravitational field tick slower relativ
 
 For a stationary observer outside a Schwarzschild black hole, the gravitational time dilation factor is:
 
-\[
+$$
 \sqrt{1-\frac{r_s}{r}}
-\]
+$$
+where $r_s$ is the Schwarzschild radius.
 
-where \(r_s\) is the Schwarzschild radius.
-
-As \(r\) approaches \(r_s\), this factor approaches zero. This means that, from the viewpoint of a distant observer, clocks near the horizon appear to slow dramatically.
+As $r$ approaches $r_s$, this factor approaches zero. This means that, from the viewpoint of a distant observer, clocks near the horizon appear to slow dramatically.
 
 This does not mean the falling observer experiences their own time slowing down. Locally, their clock behaves normally. The difference comes from comparing clocks at different positions in curved spacetime.
 
@@ -190,15 +179,14 @@ Light climbing out of a gravitational field loses energy.
 
 Photon energy is:
 
-\[
+$$
 E = hf
-\]
-
+$$
 where:
 
-- \(E\) is energy.
-- \(h\) is Planck’s constant.
-- \(f\) is frequency.
+- $E$ is energy.
+- $h$ is Planck’s constant.
+- $f$ is frequency.
 
 If the photon loses energy, its frequency decreases. Lower frequency means the light shifts toward the red end of the spectrum. This is called **gravitational redshift**.
 
@@ -210,12 +198,11 @@ Near a black hole, gravitational redshift can be extreme. Light emitted near the
 
 Gravity changes with distance. The side of an object closer to the black hole feels a stronger gravitational pull than the side farther away. This difference is called a **tidal force**.
 
-The approximate tidal acceleration across an object of length \(L\) at radius \(r\) is:
+The approximate tidal acceleration across an object of length $L$ at radius $r$ is:
 
-\[
+$$
 \Delta a \sim \frac{2GML}{r^3}
-\]
-
+$$
 Tidal forces stretch objects in the radial direction and squeeze them in perpendicular directions. This process is often called **spaghettification**.
 
 The strength of tidal forces at the event horizon depends strongly on the black hole’s mass.
@@ -230,26 +217,23 @@ For a supermassive black hole, tidal forces at the horizon can be weak enough th
 
 In classical general relativity, a singularity is a place where spacetime curvature becomes infinite or where geodesics end incompletely.
 
-For a Schwarzschild black hole, the singularity is at \(r = 0\).
+For a Schwarzschild black hole, the singularity is at $r = 0$.
 
 A useful curvature quantity is the Kretschmann scalar:
 
-\[
+$$
 K = R_{\alpha\beta\gamma\delta}R^{\alpha\beta\gamma\delta}
-\]
-
+$$
 For the Schwarzschild solution:
 
-\[
+$$
 K = \frac{48G^2M^2}{c^4r^6}
-\]
-
+$$
 As:
 
-\[
+$$
 r \to 0
-\]
-
+$$
 the curvature diverges.
 
 The singularity is not understood as an ordinary object sitting at the center. It is a sign that classical general relativity has reached its limit. A complete theory of quantum gravity is expected to replace the classical singularity with a deeper description.
@@ -262,22 +246,19 @@ The **photon sphere** is a region where light can orbit a black hole.
 
 For a Schwarzschild black hole, the photon sphere is located at:
 
-\[
+$$
 r = \frac{3GM}{c^2}
-\]
-
+$$
 Since:
 
-\[
+$$
 r_s = \frac{2GM}{c^2}
-\]
-
+$$
 the photon sphere is also:
 
-\[
+$$
 r = \frac{3}{2}r_s
-\]
-
+$$
 Photon orbits at this radius are unstable. A tiny disturbance can send the photon outward to escape or inward to be captured.
 
 The photon sphere strongly affects how black holes appear. It helps create the dark **black hole shadow** and the bright ring-like structures seen in simulations and horizon-scale observations.
@@ -330,11 +311,10 @@ The **innermost stable circular orbit**, or **ISCO**, is the smallest radius at 
 
 For a Schwarzschild black hole:
 
-\[
+$$
 r_{\text{ISCO}} = 6M
-\]
-
-in geometric units where \(G = c = 1\).
+$$
+in geometric units where $G = c = 1$.
 
 Inside the ISCO, circular orbits are unstable, and matter tends to plunge inward.
 
@@ -352,38 +332,33 @@ A rotating, uncharged black hole is described by the **Kerr solution**.
 
 A Kerr black hole is characterized by:
 
-\[
+$$
 M
-\]
-
+$$
 and:
 
-\[
+$$
 J
-\]
-
+$$
 or by the spin parameter:
 
-\[
+$$
 a = \frac{J}{Mc}
-\]
-
+$$
 The dimensionless spin parameter is:
 
-\[
+$$
 a_* = \frac{cJ}{GM^2}
-\]
-
+$$
 For a physical Kerr black hole:
 
-\[
+$$
 0 \leq a_* \leq 1
-\]
-
+$$
 where:
 
-- \(a_* = 0\) corresponds to a non-rotating black hole.
-- \(a_* = 1\) corresponds to an ideal extremal Kerr black hole.
+- $a_* = 0$ corresponds to a non-rotating black hole.
+- $a_* = 1$ corresponds to an ideal extremal Kerr black hole.
 
 A rotating black hole is not simply a spinning ball. It has no solid surface. Its spin is part of the geometry of spacetime.
 
@@ -430,36 +405,32 @@ The ergosphere touches the event horizon at the poles and bulges outward around 
 
 A Kerr black hole has two important horizon radii in the ideal mathematical solution.
 
-In geometric units where \(G = c = 1\), the outer horizon is:
+In geometric units where $G = c = 1$, the outer horizon is:
 
-\[
+$$
 r_+ = M + \sqrt{M^2 - a^2}
-\]
-
+$$
 The inner horizon is:
 
-\[
+$$
 r_- = M - \sqrt{M^2 - a^2}
-\]
-
+$$
 where:
 
-- \(r_+\) is the outer event horizon.
-- \(r_-\) is the inner, or Cauchy, horizon.
-- \(a\) is the spin parameter.
+- $r_+$ is the outer event horizon.
+- $r_-$ is the inner, or Cauchy, horizon.
+- $a$ is the spin parameter.
 
-When \(a = 0\), the Kerr solution reduces to the Schwarzschild case:
+When $a = 0$, the Kerr solution reduces to the Schwarzschild case:
 
-\[
+$$
 r_+ = 2M
-\]
+$$
+When $a = M$, the black hole is extremal and:
 
-When \(a = M\), the black hole is extremal and:
-
-\[
+$$
 r_+ = r_- = M
-\]
-
+$$
 The inner horizon is mathematically important, but it may be unstable in realistic black holes because incoming radiation can be enormously blueshifted there.
 
 ---
@@ -502,10 +473,9 @@ A rotating black hole contains energy associated with its spin.
 
 The total mass-energy is:
 
-\[
+$$
 E = Mc^2
-\]
-
+$$
 Some of that energy can be extracted by reducing the black hole’s rotation. However, not all of the mass-energy can be removed.
 
 The part that cannot be extracted by classical spin-down processes is related to the **irreducible mass**.
@@ -639,13 +609,12 @@ Rotating black holes can amplify certain waves. This is called **superradiance**
 
 If a wave scatters from a rotating black hole under the right conditions, it can leave with more energy than it had when it arrived. The extra energy comes from the black hole’s rotation.
 
-For a wave with frequency \(\omega\) and azimuthal number \(m\), the condition for superradiant amplification is:
+For a wave with frequency $\omega$ and azimuthal number $m$, the condition for superradiant amplification is:
 
-\[
+$$
 \omega < m\Omega_H
-\]
-
-where \(\Omega_H\) is the angular velocity of the horizon.
+$$
+where $\Omega_H$ is the angular velocity of the horizon.
 
 Superradiance is related to energy extraction and is important in studies of black hole stability, quantum fields, and possible ultralight particles.
 
@@ -675,18 +644,16 @@ A non-rotating charged black hole is called a **Reissner-Nordström black hole**
 
 It is described by:
 
-\[
+$$
 M,\quad Q
-\]
-
+$$
 A rotating charged black hole is called a **Kerr-Newman black hole**.
 
 It is described by:
 
-\[
+$$
 M,\quad J,\quad Q
-\]
-
+$$
 Charged black holes are important because they show how gravity and electromagnetism interact in curved spacetime. They also introduce inner and outer horizons, extremal limits, and altered thermodynamic behavior.
 
 However, large astrophysical black holes are expected to have very little net charge because surrounding plasma would quickly neutralize large charge imbalances.
@@ -703,10 +670,9 @@ Because black holes are usually surrounded by ionized gas and plasma, large net 
 
 Therefore, for most astrophysical black holes:
 
-\[
+$$
 Q \approx 0
-\]
-
+$$
 This does not mean electromagnetic fields near black holes are unimportant. Magnetic fields and plasma can dominate the behavior of accretion disks and jets. It only means the black hole’s total net charge is expected to be small.
 
 ---
@@ -715,40 +681,36 @@ This does not mean electromagnetic fields near black holes are unimportant. Magn
 
 A charged, non-rotating black hole can have two horizons.
 
-In geometric units where \(G = c = 1\), the horizon radii are:
+In geometric units where $G = c = 1$, the horizon radii are:
 
-\[
+$$
 r_\pm = M \pm \sqrt{M^2 - Q^2}
-\]
-
+$$
 where:
 
-- \(r_+\) is the outer event horizon.
-- \(r_-\) is the inner horizon.
-- \(Q\) is the charge parameter.
+- $r_+$ is the outer event horizon.
+- $r_-$ is the inner horizon.
+- $Q$ is the charge parameter.
 
 If:
 
-\[
+$$
 Q^2 < M^2
-\]
-
+$$
 there are two horizons.
 
 If:
 
-\[
+$$
 Q^2 = M^2
-\]
-
+$$
 the black hole is extremal, and the horizons merge.
 
 If:
 
-\[
+$$
 Q^2 > M^2
-\]
-
+$$
 the idealized solution has no event horizon and contains a naked singularity.
 
 ---
@@ -770,30 +732,26 @@ It includes:
 
 Its horizon radii in geometric units are:
 
-\[
+$$
 r_\pm = M \pm \sqrt{M^2 - a^2 - Q^2}
-\]
-
+$$
 A horizon exists only if:
 
-\[
+$$
 M^2 \geq a^2 + Q^2
-\]
-
+$$
 If:
 
-\[
+$$
 M^2 = a^2 + Q^2
-\]
-
+$$
 the black hole is extremal.
 
 If:
 
-\[
+$$
 M^2 < a^2 + Q^2
-\]
-
+$$
 the idealized solution contains no horizon.
 
 Astrophysically, Kerr-Newman black holes are less commonly used than Kerr black holes because real black holes are expected to have very small net charge.
@@ -806,22 +764,19 @@ An **extremal black hole** is one at the maximum allowed spin, charge, or combin
 
 For Kerr:
 
-\[
+$$
 a^2 = M^2
-\]
-
+$$
 For Reissner-Nordström:
 
-\[
+$$
 Q^2 = M^2
-\]
-
+$$
 For Kerr-Newman:
 
-\[
+$$
 a^2 + Q^2 = M^2
-\]
-
+$$
 In an extremal black hole, the inner and outer horizons merge.
 
 Extremal black holes are important in theoretical physics because they often have special mathematical properties and appear in studies of:
@@ -843,22 +798,19 @@ If a black hole has too much spin or charge, the event horizon disappears in the
 
 For Kerr:
 
-\[
+$$
 a^2 > M^2
-\]
-
+$$
 For Reissner-Nordström:
 
-\[
+$$
 Q^2 > M^2
-\]
-
+$$
 For Kerr-Newman:
 
-\[
+$$
 a^2 + Q^2 > M^2
-\]
-
+$$
 Without an event horizon, the singularity would be visible to the outside universe. This is called a **naked singularity**.
 
 The **cosmic censorship conjecture** proposes that physically realistic gravitational collapse does not produce naked singularities visible to distant observers.
@@ -945,16 +897,14 @@ Black holes are expected to emit thermal radiation called **Hawking radiation**.
 
 For a non-rotating, uncharged black hole, the Hawking temperature is:
 
-\[
+$$
 T_H = \frac{\hbar c^3}{8\pi GMk_B}
-\]
-
+$$
 This means:
 
-\[
+$$
 T_H \propto \frac{1}{M}
-\]
-
+$$
 Large black holes are extremely cold. A solar-mass black hole has a Hawking temperature far below the temperature of the cosmic microwave background.
 
 Small black holes would be much hotter and would evaporate faster.
@@ -967,17 +917,15 @@ Because Hawking radiation carries energy away, a black hole slowly loses mass.
 
 The evaporation time for a non-rotating, uncharged black hole is:
 
-\[
+$$
 t_{\text{evap}} =
 \frac{5120\pi G^2M^3}{\hbar c^4}
-\]
-
+$$
 The key scaling is:
 
-\[
+$$
 t_{\text{evap}} \propto M^3
-\]
-
+$$
 A stellar-mass black hole takes vastly longer than the current age of the universe to evaporate.
 
 Tiny hypothetical primordial black holes could evaporate much faster.
@@ -990,28 +938,24 @@ Spin and charge affect Hawking temperature.
 
 For a Kerr black hole, one useful geometric-unit expression is:
 
-\[
+$$
 T_H = \frac{r_+ - r_-}{4\pi(r_+^2 + a^2)}
-\]
-
+$$
 For a charged Reissner-Nordström black hole, the temperature also depends on the separation between the outer and inner horizons:
 
-\[
+$$
 T_H \propto \frac{r_+ - r_-}{r_+^2}
-\]
-
+$$
 As a black hole approaches extremality:
 
-\[
+$$
 r_+ \to r_-
-\]
-
+$$
 so:
 
-\[
+$$
 T_H \to 0
-\]
-
+$$
 This means ideal extremal black holes have zero Hawking temperature in the semiclassical calculation, while still potentially having nonzero horizon area. This creates deep questions about black hole thermodynamics and quantum gravity.
 
 ---
@@ -1022,11 +966,10 @@ Black holes have entropy.
 
 The Bekenstein-Hawking entropy is:
 
-\[
+$$
 S = \frac{k_B c^3 A}{4G\hbar}
-\]
-
-where \(A\) is the area of the event horizon.
+$$
+where $A$ is the area of the event horizon.
 
 This is remarkable because ordinary entropy usually scales with volume, while black hole entropy scales with area.
 
@@ -1283,10 +1226,9 @@ A simulation can model black holes at many levels of complexity.
 
 A simple simulation can use Newtonian gravity:
 
-\[
+$$
 a = \frac{GM}{r^2}
-\]
-
+$$
 This is useful for basic orbital motion but does not capture event horizons, light cones, time dilation, or true relativistic effects.
 
 ## Effective potential models
@@ -1329,42 +1271,35 @@ Advanced simulations use general relativistic magnetohydrodynamics, or GRMHD, to
 
 For a Schwarzschild black hole:
 
-\[
+$$
 r_s = 2M
-\]
-
-\[
+$$
+$$
 r_{\text{photon}} = 3M
-\]
-
-\[
+$$
+$$
 r_{\text{ISCO}} = 6M
-\]
-
-in geometric units where \(G = c = 1\).
+$$
+in geometric units where $G = c = 1$.
 
 For a Kerr black hole:
 
-\[
+$$
 r_+ = M + \sqrt{M^2 - a^2}
-\]
-
-\[
+$$
+$$
 r_- = M - \sqrt{M^2 - a^2}
-\]
-
+$$
 For a Kerr-Newman black hole:
 
-\[
+$$
 r_\pm = M \pm \sqrt{M^2 - a^2 - Q^2}
-\]
-
+$$
 A useful condition for a horizon is:
 
-\[
+$$
 M^2 \geq a^2 + Q^2
-\]
-
+$$
 If this condition fails in the idealized equation, the horizon disappears.
 
 Useful simulation features include:

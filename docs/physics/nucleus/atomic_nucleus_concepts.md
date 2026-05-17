@@ -19,33 +19,30 @@ A simple picture of the atom often shows electrons orbiting a central nucleus li
 
 An atomic nucleus is made of:
 
-\[
+$$
 Z \text{ protons}
-\]
-
+$$
 and
 
-\[
+$$
 N \text{ neutrons}
-\]
-
+$$
 The total number of nucleons is called the **mass number**:
 
-\[
+$$
 A = Z + N
-\]
-
+$$
 where:
 
-- \(Z\) = atomic number = number of protons.
-- \(N\) = neutron number = number of neutrons.
-- \(A\) = mass number = total number of protons and neutrons.
+- $Z$ = atomic number = number of protons.
+- $N$ = neutron number = number of neutrons.
+- $A$ = mass number = total number of protons and neutrons.
 
 The number of protons determines the element.
 
 For example:
 
-| Element | Protons \(Z\) |
+| Element | Protons $Z$ |
 |---|---:|
 | Hydrogen | 1 |
 | Helium | 2 |
@@ -74,28 +71,25 @@ Carbon-12 and carbon-13 are stable. Carbon-14 is radioactive.
 
 The notation for an isotope is often written as:
 
-\[
+$$
 ^{A}_{Z}X
-\]
-
+$$
 where:
 
-- \(X\) is the chemical symbol.
-- \(A\) is the mass number.
-- \(Z\) is the atomic number.
+- $X$ is the chemical symbol.
+- $A$ is the mass number.
+- $Z$ is the atomic number.
 
 For carbon-14:
 
-\[
+$$
 ^{14}_{6}\text{C}
-\]
-
+$$
 This means carbon with 6 protons and 14 total nucleons, so it has:
 
-\[
+$$
 N = A - Z = 14 - 6 = 8
-\]
-
+$$
 neutrons.
 
 ---
@@ -104,42 +98,36 @@ neutrons.
 
 Nuclei are measured in **femtometers**.
 
-\[
+$$
 1 \text{ femtometer} = 10^{-15} \text{ meters}
-\]
-
+$$
 A typical nuclear radius is modeled approximately by:
 
-\[
+$$
 R = R_0 A^{1/3}
-\]
-
+$$
 where:
 
-\[
+$$
 R_0 \approx 1.2 \text{ fm}
-\]
-
-and \(A\) is the mass number.
+$$
+and $A$ is the mass number.
 
 This equation means that nuclear radius grows with the cube root of the number of nucleons. The cube-root dependence makes sense because nuclear volume is roughly proportional to the number of nucleons:
 
-\[
+$$
 V \propto R^3
-\]
-
+$$
 If:
 
-\[
+$$
 R \propto A^{1/3}
-\]
-
+$$
 then:
 
-\[
+$$
 V \propto A
-\]
-
+$$
 So adding more nucleons increases the volume roughly linearly.
 
 This also means nuclear density is approximately constant across many nuclei. A large nucleus is not much denser than a small nucleus; it is mostly just bigger.
@@ -152,33 +140,30 @@ The nucleus is incredibly dense.
 
 A rough nuclear density is about:
 
-\[
+$$
 \rho \sim 2 \times 10^{17} \text{ kg/m}^3
-\]
-
+$$
 This is far denser than ordinary matter.
 
 The reason ordinary matter is not that dense is that atoms are mostly empty space. The electrons occupy a region far larger than the nucleus.
 
 A useful comparison:
 
-- Atomic radius: about \(10^{-10}\) meters.
-- Nuclear radius: about \(10^{-15}\) meters.
+- Atomic radius: about $10^{-10}$ meters.
+- Nuclear radius: about $10^{-15}$ meters.
 
 The atom is about:
 
-\[
+$$
 10^5
-\]
-
+$$
 or 100,000 times wider than the nucleus.
 
 Since volume scales as radius cubed, the atom’s volume is roughly:
 
-\[
+$$
 (10^5)^3 = 10^{15}
-\]
-
+$$
 or one quadrillion times larger than the nucleus.
 
 ---
@@ -189,30 +174,26 @@ A **proton** is a positively charged nucleon.
 
 Its charge is:
 
-\[
+$$
 +e
-\]
-
+$$
 where:
 
-\[
+$$
 e \approx 1.602 \times 10^{-19} \text{ C}
-\]
-
+$$
 A proton’s mass is approximately:
 
-\[
+$$
 1.6726 \times 10^{-27} \text{ kg}
-\]
-
+$$
 In particle physics, the proton is not fundamental. It is made of smaller particles called **quarks**.
 
 A proton contains:
 
-\[
+$$
 uud
-\]
-
+$$
 meaning:
 
 - 2 up quarks.
@@ -220,20 +201,17 @@ meaning:
 
 The charges of these quarks are:
 
-\[
+$$
 \text{up quark} = +\frac{2}{3}e
-\]
-
-\[
+$$
+$$
 \text{down quark} = -\frac{1}{3}e
-\]
-
+$$
 So the proton’s total charge is:
 
-\[
+$$
 +\frac{2}{3}e + \frac{2}{3}e - \frac{1}{3}e = +e
-\]
-
+$$
 ---
 
 # 6. Neutrons
@@ -242,18 +220,16 @@ A **neutron** is an electrically neutral nucleon.
 
 Its mass is approximately:
 
-\[
+$$
 1.6749 \times 10^{-27} \text{ kg}
-\]
-
+$$
 It is slightly heavier than a proton.
 
 A neutron is also made of quarks. It contains:
 
-\[
+$$
 udd
-\]
-
+$$
 meaning:
 
 - 1 up quark.
@@ -261,10 +237,9 @@ meaning:
 
 Its total charge is:
 
-\[
+$$
 +\frac{2}{3}e - \frac{1}{3}e - \frac{1}{3}e = 0
-\]
-
+$$
 A free neutron is unstable. Outside the nucleus, it undergoes beta decay with a lifetime of about 15 minutes on average. Inside many nuclei, neutrons can be stable because the nuclear environment changes the energy balance.
 
 ---
@@ -275,10 +250,9 @@ A nucleus contains positively charged protons. Since like charges repel, every p
 
 The electric repulsion between two protons is described by Coulomb’s law:
 
-\[
+$$
 F_E = k_e \frac{e^2}{r^2}
-\]
-
+$$
 This repulsion is significant inside the nucleus because protons are extremely close together.
 
 So why does the nucleus stay together?
@@ -329,30 +303,26 @@ This missing mass is called the **mass defect**.
 
 Einstein’s equation relates mass and energy:
 
-\[
+$$
 E = mc^2
-\]
-
+$$
 The nuclear binding energy is:
 
-\[
+$$
 E_b = \Delta m c^2
-\]
-
-where \(\Delta m\) is the mass defect.
+$$
+where $\Delta m$ is the mass defect.
 
 If:
 
-\[
+$$
 \Delta m = Zm_p + Nm_n - m_{\text{nucleus}}
-\]
-
+$$
 then:
 
-\[
+$$
 E_b = \left(Zm_p + Nm_n - m_{\text{nucleus}}\right)c^2
-\]
-
+$$
 Binding energy is the energy required to completely separate a nucleus into individual protons and neutrons.
 
 A tightly bound nucleus has a large binding energy.
@@ -363,10 +333,9 @@ A tightly bound nucleus has a large binding energy.
 
 The **binding energy per nucleon** is:
 
-\[
+$$
 \frac{E_b}{A}
-\]
-
+$$
 This tells us how strongly, on average, each nucleon is bound inside the nucleus.
 
 The binding energy per nucleon increases rapidly for small nuclei, reaches a maximum near iron and nickel, and then slowly decreases for very heavy nuclei.
@@ -392,55 +361,49 @@ It treats the nucleus somewhat like a charged liquid drop.
 
 A simplified form is:
 
-\[
+$$
 B(A,Z) =
  a_v A
 - a_s A^{2/3}
 - a_c \frac{Z(Z-1)}{A^{1/3}}
 - a_a \frac{(A-2Z)^2}{A}
 + \delta(A,Z)
-\]
-
+$$
 The terms represent different physical effects:
 
 ## Volume term
 
-\[
+$$
 a_v A
-\]
-
+$$
 Each nucleon attracts nearby nucleons, so binding roughly increases with the number of nucleons.
 
 ## Surface term
 
-\[
+$$
 -a_s A^{2/3}
-\]
-
+$$
 Nucleons on the surface have fewer neighbors, so they are less tightly bound.
 
 ## Coulomb term
 
-\[
+$$
 -a_c \frac{Z(Z-1)}{A^{1/3}}
-\]
-
+$$
 Protons repel each other electrically, reducing binding energy.
 
 ## Asymmetry term
 
-\[
+$$
 -a_a \frac{(A-2Z)^2}{A}
-\]
-
+$$
 Nuclei are more stable when proton and neutron numbers are balanced, especially for light elements. For heavier elements, extra neutrons are needed to offset proton-proton repulsion.
 
 ## Pairing term
 
-\[
+$$
 \delta(A,Z)
-\]
-
+$$
 Nuclei with paired protons and paired neutrons tend to be more stable.
 
 ---
@@ -456,16 +419,14 @@ Neutrons help in two major ways:
 
 For light nuclei, stable isotopes often have approximately equal numbers of protons and neutrons:
 
-\[
+$$
 N \approx Z
-\]
-
+$$
 For heavier nuclei, stable isotopes usually require more neutrons than protons:
 
-\[
+$$
 N > Z
-\]
-
+$$
 This is because proton-proton electric repulsion grows as the nucleus gets larger. Extra neutrons increase strong-force binding without increasing electric repulsion.
 
 ---
@@ -490,10 +451,9 @@ There is a region of stable nuclei called the **band of stability**.
 
 Light stable nuclei tend to lie near:
 
-\[
+$$
 N = Z
-\]
-
+$$
 Heavy stable nuclei lie above that line, with more neutrons than protons.
 
 Very heavy nuclei become unstable because electric repulsion among many protons becomes too large for the short-range nuclear force to fully overcome.
@@ -521,20 +481,18 @@ Radioactive decay is probabilistic. You cannot predict exactly when a single uns
 
 The **half-life** of a radioactive isotope is the time it takes for half of a sample to decay.
 
-If a sample starts with \(N_0\) unstable nuclei, the number remaining after time \(t\) is:
+If a sample starts with $N_0$ unstable nuclei, the number remaining after time $t$ is:
 
-\[
+$$
 N(t) = N_0 e^{-\lambda t}
-\]
+$$
+where $\lambda$ is the decay constant.
 
-where \(\lambda\) is the decay constant.
+The half-life $t_{1/2}$ is related to $\lambda$ by:
 
-The half-life \(t_{1/2}\) is related to \(\lambda\) by:
-
-\[
+$$
 t_{1/2} = \frac{\ln 2}{\lambda}
-\]
-
+$$
 After one half-life, half remains.
 
 After two half-lives, one fourth remains.
@@ -551,10 +509,9 @@ In **alpha decay**, a nucleus emits an alpha particle.
 
 An alpha particle is a helium-4 nucleus:
 
-\[
+$$
 ^{4}_{2}\text{He}
-\]
-
+$$
 It contains:
 
 - 2 protons.
@@ -562,18 +519,16 @@ It contains:
 
 A general alpha decay looks like:
 
-\[
+$$
 ^{A}_{Z}X \rightarrow ^{A-4}_{Z-2}Y + ^4_2\text{He}
-\]
-
+$$
 The mass number decreases by 4, and the atomic number decreases by 2.
 
 Example:
 
-\[
+$$
 ^{238}_{92}\text{U} \rightarrow ^{234}_{90}\text{Th} + ^4_2\text{He}
-\]
-
+$$
 Alpha decay often occurs in heavy nuclei where reducing size and proton repulsion leads to a more stable configuration.
 
 Quantum tunneling is essential to alpha decay. The alpha particle is trapped by the nuclear potential but has a probability of tunneling through the energy barrier.
@@ -586,16 +541,14 @@ In **beta-minus decay**, a neutron turns into a proton, emitting an electron and
 
 At the nucleon level:
 
-\[
+$$
 n \rightarrow p + e^- + \bar{\nu}_e
-\]
-
+$$
 Inside a nucleus:
 
-\[
+$$
 ^{A}_{Z}X \rightarrow ^A_{Z+1}Y + e^- + \bar{\nu}_e
-\]
-
+$$
 The mass number stays the same, but the atomic number increases by 1.
 
 Beta-minus decay occurs when a nucleus has too many neutrons relative to protons.
@@ -610,16 +563,14 @@ In **beta-plus decay**, a proton turns into a neutron, emitting a positron and a
 
 At the nucleon level:
 
-\[
+$$
 p \rightarrow n + e^+ + \nu_e
-\]
-
+$$
 Inside a nucleus:
 
-\[
+$$
 ^{A}_{Z}X \rightarrow ^A_{Z-1}Y + e^+ + \nu_e
-\]
-
+$$
 The mass number stays the same, but the atomic number decreases by 1.
 
 Beta-plus decay occurs when a nucleus has too many protons relative to neutrons.
@@ -632,16 +583,14 @@ A positron is the antimatter counterpart of the electron.
 
 In **electron capture**, a proton in the nucleus captures an inner electron and becomes a neutron.
 
-\[
+$$
 p + e^- \rightarrow n + \nu_e
-\]
-
+$$
 Inside a nucleus:
 
-\[
+$$
 ^{A}_{Z}X + e^- \rightarrow ^A_{Z-1}Y + \nu_e
-\]
-
+$$
 This also lowers the atomic number by 1 while keeping the mass number the same.
 
 Electron capture competes with beta-plus decay in some proton-rich nuclei.
@@ -652,10 +601,9 @@ Electron capture competes with beta-plus decay in some proton-rich nuclei.
 
 In **gamma decay**, an excited nucleus releases energy by emitting a gamma-ray photon.
 
-\[
+$$
 ^{A}_{Z}X^* \rightarrow ^A_ZX + \gamma
-\]
-
+$$
 The asterisk indicates an excited nuclear state.
 
 Gamma decay does not change the number of protons or neutrons. It only lowers the energy of the nucleus.
@@ -674,14 +622,13 @@ When a nucleus transitions from a higher energy state to a lower energy state, i
 
 The energy of the gamma photon is:
 
-\[
+$$
 E_\gamma = E_i - E_f
-\]
-
+$$
 where:
 
-- \(E_i\) is the initial nuclear energy level.
-- \(E_f\) is the final nuclear energy level.
+- $E_i$ is the initial nuclear energy level.
+- $E_f$ is the final nuclear energy level.
 
 Nuclear energy levels are usually much more energetic than electronic energy levels. Electronic transitions often involve electronvolts, while nuclear transitions often involve kiloelectronvolts or megaelectronvolts.
 
@@ -704,10 +651,9 @@ Certain numbers of protons or neutrons produce extra stability. These are called
 
 Common magic numbers are:
 
-\[
+$$
 2, 8, 20, 28, 50, 82, 126
-\]
-
+$$
 A nucleus with a magic number of protons or neutrons is more stable than nearby nuclei.
 
 A **doubly magic** nucleus has magic numbers of both protons and neutrons.
@@ -770,10 +716,9 @@ Nucleons have intrinsic angular momentum called **spin**.
 
 Protons and neutrons each have spin:
 
-\[
+$$
 \frac{1}{2}
-\]
-
+$$
 Nucleons can also have orbital angular momentum due to their motion inside the nucleus.
 
 The total nuclear spin comes from combining:
@@ -839,10 +784,9 @@ A typical fission reaction releases:
 
 Example of uranium-235 fission:
 
-\[
+$$
 ^{235}_{92}\text{U} + n \rightarrow ^{236}_{92}\text{U}^* \rightarrow \text{fission fragments} + \text{neutrons} + \text{energy}
-\]
-
+$$
 The excited uranium-236 nucleus can deform and split.
 
 Fission releases energy because the daughter nuclei are more tightly bound per nucleon than the original heavy nucleus.
@@ -857,11 +801,11 @@ This creates a **chain reaction**.
 
 For a sustained chain reaction, on average at least one neutron from each fission must cause another fission.
 
-The multiplication factor is often called \(k\):
+The multiplication factor is often called $k$:
 
-- \(k < 1\): subcritical; reaction dies out.
-- \(k = 1\): critical; reaction is steady.
-- \(k > 1\): supercritical; reaction grows.
+- $k < 1$: subcritical; reaction dies out.
+- $k = 1$: critical; reaction is steady.
+- $k > 1$: supercritical; reaction grows.
 
 Nuclear reactors are designed to maintain a controlled critical chain reaction.
 
@@ -877,10 +821,9 @@ In the Sun, hydrogen nuclei ultimately combine to form helium through a sequence
 
 A simplified overall reaction is:
 
-\[
+$$
 4p \rightarrow ^4_2\text{He} + 2e^+ + 2\nu_e + \text{energy}
-\]
-
+$$
 Fusion releases energy because helium-4 is more tightly bound than four separate protons.
 
 The challenge is that nuclei are positively charged, so they repel each other electrically. They must get extremely close for the strong nuclear force to bind them.
@@ -897,14 +840,13 @@ The **Coulomb barrier** is the electric repulsion that two positively charged nu
 
 The approximate electric potential energy between two nuclei is:
 
-\[
+$$
 U = k_e \frac{Z_1 Z_2 e^2}{r}
-\]
-
+$$
 where:
 
-- \(Z_1\) and \(Z_2\) are the proton numbers of the nuclei.
-- \(r\) is the distance between them.
+- $Z_1$ and $Z_2$ are the proton numbers of the nuclei.
+- $r$ is the distance between them.
 
 At large distances, the nuclei repel. At very short distances, the strong nuclear force becomes dominant and can bind them.
 
@@ -989,11 +931,10 @@ A **nuclear reaction** changes the composition or energy state of a nucleus.
 
 General form:
 
-\[
+$$
 a + X \rightarrow Y + b
-\]
-
-where a projectile \(a\) hits a target nucleus \(X\), producing a new nucleus \(Y\) and outgoing particle \(b\).
+$$
+where a projectile $a$ hits a target nucleus $X$, producing a new nucleus $Y$ and outgoing particle $b$.
 
 Examples include:
 
@@ -1019,16 +960,14 @@ Nuclear reactions must conserve:
 
 In **neutron capture**, a nucleus absorbs a neutron:
 
-\[
+$$
 ^A_ZX + n \rightarrow ^{A+1}_ZX^*
-\]
-
+$$
 The resulting nucleus may be excited and emit gamma radiation:
 
-\[
+$$
 ^{A+1}_ZX^* \rightarrow ^{A+1}_ZX + \gamma
-\]
-
+$$
 Neutron capture is important in:
 
 - Nuclear reactors.
@@ -1107,11 +1046,10 @@ The energy comes from changes in nuclear binding energy.
 
 If the final products have less total mass than the initial particles, the missing mass appears as released energy:
 
-\[
+$$
 E = \Delta m c^2
-\]
-
-Even a tiny mass difference corresponds to a large energy because \(c^2\) is enormous.
+$$
+Even a tiny mass difference corresponds to a large energy because $c^2$ is enormous.
 
 ---
 
@@ -1119,62 +1057,53 @@ Even a tiny mass difference corresponds to a large energy because \(c^2\) is eno
 
 Nuclear physics often uses the **electronvolt**.
 
-\[
+$$
 1 \text{ eV} = 1.602 \times 10^{-19} \text{ J}
-\]
-
+$$
 Common units include:
 
-\[
+$$
 1 \text{ keV} = 10^3 \text{ eV}
-\]
-
-\[
+$$
+$$
 1 \text{ MeV} = 10^6 \text{ eV}
-\]
-
-\[
+$$
+$$
 1 \text{ GeV} = 10^9 \text{ eV}
-\]
-
+$$
 Nuclear binding energies are often measured in MeV.
 
 The mass of a proton is about:
 
-\[
+$$
 938 \text{ MeV}/c^2
-\]
-
+$$
 The mass of a neutron is about:
 
-\[
+$$
 939 \text{ MeV}/c^2
-\]
-
+$$
 ---
 
 # 42. Atomic mass unit
 
 The **atomic mass unit**, or unified atomic mass unit, is useful for nuclear masses.
 
-\[
+$$
 1 \text{ u} \approx 1.6605 \times 10^{-27} \text{ kg}
-\]
-
+$$
 In energy units:
 
-\[
+$$
 1 \text{ u} \approx 931.5 \text{ MeV}/c^2
-\]
-
+$$
 This conversion is useful for calculating nuclear binding energy from mass defects.
 
-If the mass defect is \(0.01\text{ u}\), the energy equivalent is approximately:
+If the mass defect is $0.01\text{ u}$, the energy equivalent is approximately:
 
-\[
+$$
 0.01 \times 931.5 \text{ MeV} = 9.315 \text{ MeV}
-\]
-
+$$
 ---
 
 # 43. Example: helium-4 binding energy
@@ -1190,10 +1119,9 @@ The binding energy of helium-4 is about 28.3 MeV total.
 
 Binding energy per nucleon is therefore:
 
-\[
+$$
 \frac{28.3\text{ MeV}}{4} \approx 7.1\text{ MeV per nucleon}
-\]
-
+$$
 Helium-4 is especially stable because it has 2 protons and 2 neutrons, corresponding to filled nuclear shells.
 
 ---
@@ -1202,18 +1130,15 @@ Helium-4 is especially stable because it has 2 protons and 2 neutrons, correspon
 
 Carbon-12 has:
 
-\[
+$$
 Z = 6
-\]
-
-\[
+$$
+$$
 N = 6
-\]
-
-\[
+$$
+$$
 A = 12
-\]
-
+$$
 It is stable and very important for life.
 
 Carbon-12 can be thought of in different nuclear models:
@@ -1230,30 +1155,26 @@ No single model captures every feature perfectly.
 
 Uranium-238 has:
 
-\[
+$$
 Z = 92
-\]
-
-\[
+$$
+$$
 A = 238
-\]
-
+$$
 So:
 
-\[
+$$
 N = 238 - 92 = 146
-\]
-
+$$
 It has many more neutrons than protons.
 
 This neutron excess helps reduce the destabilizing effect of proton-proton repulsion, but uranium-238 is still radioactive.
 
 It decays mainly by alpha decay:
 
-\[
+$$
 ^{238}_{92}\text{U} \rightarrow ^{234}_{90}\text{Th} + ^4_2\text{He}
-\]
-
+$$
 Very heavy nuclei tend to be unstable because the long-range Coulomb repulsion among protons becomes too large.
 
 ---
@@ -1304,8 +1225,8 @@ The **chart of nuclides** arranges nuclei by proton number and neutron number.
 
 Usually:
 
-- Proton number \(Z\) is on one axis.
-- Neutron number \(N\) is on the other axis.
+- Proton number $Z$ is on one axis.
+- Neutron number $N$ is on the other axis.
 
 Stable nuclei form a curved band.
 
@@ -1360,16 +1281,14 @@ This model is intuitive and visually useful, but not fully quantum mechanical.
 
 Use approximate forces:
 
-\[
+$$
 F_{\text{strong}}(r)
-\]
-
+$$
 for short-range attraction and repulsion, plus Coulomb repulsion between protons:
 
-\[
+$$
 F_{\text{Coulomb}} = k \frac{q_1 q_2}{r^2}
-\]
-
+$$
 This can show why nuclei need neutrons and why heavy nuclei become unstable.
 
 ## Level 3: binding-energy model
@@ -1424,7 +1343,7 @@ A nucleus simulation can show:
 - Neutrons as gray or neutral particles.
 - Electric repulsion arrows between protons.
 - Short-range attraction between nearby nucleons.
-- A radius boundary based on \(R = R_0A^{1/3}\).
+- A radius boundary based on $R = R_0A^{1/3}$.
 - Binding energy per nucleon.
 - Isotope identity.
 - Stability indicator.
@@ -1439,10 +1358,9 @@ For example, when the user changes neutron number, the simulator could show whet
 
 A simplified pair potential between nucleons could have this shape:
 
-\[
+$$
 V(r) = V_{\text{rep}}(r) + V_{\text{attr}}(r) + V_{\text{coulomb}}(r)
-\]
-
+$$
 The short-range repulsive part prevents collapse.
 
 The medium-short-range attractive part binds nucleons.
@@ -1451,22 +1369,20 @@ The Coulomb part applies only between protons.
 
 A possible qualitative form is:
 
-\[
+$$
 V_{\text{nuclear}}(r) = A e^{-r/r_1} - B e^{-r/r_2}
-\]
-
+$$
 where:
 
 - The first term can represent short-range repulsion.
 - The second term can represent attraction.
-- \(A\), \(B\), \(r_1\), and \(r_2\) are adjustable constants.
+- $A$, $B$, $r_1$, and $r_2$ are adjustable constants.
 
 For proton-proton interactions, add:
 
-\[
+$$
 V_{\text{coulomb}}(r) = k \frac{e^2}{r}
-\]
-
+$$
 This is not a complete physical nuclear potential, but it can produce useful educational behavior.
 
 ---
